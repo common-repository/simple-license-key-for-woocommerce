@@ -1,0 +1,20 @@
+{
+  "name": "simple-license-key-for-woocommerce",
+  "version": "1.0.6",
+  "description": "Simple License Key for WooCommerce",
+  "main": "slkwoo-admin.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build:slkwoo-admin": "wp-scripts build src/slkwoo-admin --output-path=dist",
+    "lint-js": "wp-scripts lint-js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Katsushi Kawamori",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@wordpress/scripts": "24.3.0"
+  },
+  "dependencies": {
+    "@wordpress/api-fetch": "^6.16.0"
+  }
+}
